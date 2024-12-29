@@ -1,0 +1,16 @@
+input {
+  width: 100%;
+  height: calc(100% + 1px);
+  padding: 0 1rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+}
+
+input:focus {
+  border-color: var(--purple);
+  outline: none;
+
+  color: var(--white);
+}

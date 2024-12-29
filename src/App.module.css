@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputTask {
+  margin-top: -1.625rem;
+
+  width: 46rem;
+  max-width: 100%;
+  height: 3.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.tasks {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.taskList {
+  width: 100%;
+  max-width: 46rem;
+}
+
+.taskList ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}

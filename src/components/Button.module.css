@@ -1,0 +1,19 @@
+button {
+  width: 5.625rem;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  color: var(--white);
+  background: var(--blue-dark);
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+button:active {
+  filter: brightness(0.9);
+}
